@@ -4,12 +4,11 @@
 #Feladat_001/2
 #Fejleszd tovább az első feladat programját úgy, hogy amennyiben a felhasználó nem a két lehetséges válasz (igen/nem) közül ad meg egyet, a gép kiírja: "Sajnos nem értem a válaszodat!"
 
-nem = 0
-igen = 0
-igen= input("Jó a napod? ")
-if igen == igen:
+
+nap= input("Jó a napod? ")
+if nap == 'igen':
     print(f'A válaszod: {igen}')
-elif nem == nem:
+elif nap == 'nem':
     print(f'A válaszod:{nem}')
 else:
     print(f'Sajnos nem értem a válaszodat!{igen}{nem}')
